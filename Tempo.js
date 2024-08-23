@@ -63,6 +63,7 @@ switch(temperaturaDesejada){
       }
       else if (dataTemperatura == 2) {
         const kelvinTotal = ((farenheit + 459.67) * 5 )/9
+        window.alert(`Resultado: ${kelvinTotal}`);
       }
 
     break;  
